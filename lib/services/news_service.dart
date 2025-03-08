@@ -20,12 +20,7 @@ class NewsService {
       List<ArticleModel> article =
           articles
               .map(
-                (article) => ArticleModel(
-                  imagePath: article['urlToImage'],
-                  title: article['title'],
-                  subTitle: article['description'],
-                  url: article['url']
-                ),
+                (article) => ArticleModel.fromjson(article),
               )
               .toList();
       return article;
