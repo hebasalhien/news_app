@@ -8,4 +8,4 @@ Developed with three main screens:
 
 2-Category Screen: Shows news articles filtered by selected category
 
-3-News Screen: Opens full articles using a WebView widget## Getting Started
+3-News Screen: Opens full articles using a WebView widget
